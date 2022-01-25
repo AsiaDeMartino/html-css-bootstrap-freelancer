@@ -2,7 +2,10 @@
 
 .container {
     border: 1px solid black;
-    min-height: 150px;
+}
+
+.ms_minheight{
+    min-height: 200px;
 }
 
 .row {
@@ -21,4 +24,16 @@
 
 .ms_uppercase{
     text-transform: uppercase;
+}
+
+.ms_bg_grey{
+    background-color: rgb(33,47,62);
+}
+
+.ms_bg_acqua{
+    background-color: rgb(30,177,138);
+}
+
+.ms_fontsize_p{
+    font-size: 12px;
 }
