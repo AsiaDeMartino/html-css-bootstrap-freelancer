@@ -1,0 +1,24 @@
+/* DEBUG */
+
+.container {
+    border: 1px solid black;
+    min-height: 150px;
+}
+
+.row {
+    border: 1px solid purple;
+}
+
+[class*="col"] {
+    border: 1px dashed red;
+} 
+
+/* HEADER */
+
+.ms_flexbox{
+    display: flex;
+}
+
+.ms_uppercase{
+    text-transform: uppercase;
+}
