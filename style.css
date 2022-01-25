@@ -1,11 +1,10 @@
 /* DEBUG */
-
-.container {
-    border: 1px solid black;
-}
-
 .ms_minheight{
     min-height: 200px;
+}
+
+/* .container {
+    border: 1px solid black;
 }
 
 .row {
@@ -14,7 +13,7 @@
 
 [class*="col"] {
     border: 1px dashed red;
-} 
+}  */
 
 /* HEADER */
 
