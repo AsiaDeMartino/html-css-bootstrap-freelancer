@@ -1,9 +1,18 @@
 /* DEBUG */
-.ms_minheight{
-    min-height: 200px;
+
+.ms_heightS{
+    min-height: 90px;
 }
 
-.container {
+.ms_heightM{
+    min-height: 590px;
+}
+
+.ms_heightL{
+    min-height: 850px;
+}
+
+/* .container {
     border: 1px solid black;
 }
 
@@ -13,13 +22,9 @@
 
 [class*="col"] {
     border: 1px dashed red;
-} 
+}  */
 
 /* HEADER */
-
-.ms_uppercase{
-    text-transform: uppercase;
-}
 
 .ms_bg_grey{
     background-color: rgb(33,47,62);
@@ -33,6 +38,11 @@
 
 .ms_bg_acqua{
     background-color: rgb(30,177,138);
+}
+
+.portfolio__card{
+    min-height: 250px;
+    border-radius: 5px;
 }
 
 /* FOOTER */
