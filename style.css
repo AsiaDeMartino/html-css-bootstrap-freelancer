@@ -1,7 +1,11 @@
 /* DEBUG */
 
-.ms_heightS{
+.ms_heightXS{
     min-height: 90px;
+}
+
+.ms_heightS{
+    min-height: 500px;
 }
 
 .ms_heightM{
@@ -80,6 +84,15 @@
     width: 100%;
 }
 
+.ms_testoabout{
+    column-count: 2;
+    column-gap: 1.5rem;
+}
+
+#section3 .container{
+    max-width: 980px;
+}
+
 /* FOOTER */
 
 .ms_bg_lightblue{
@@ -92,4 +105,12 @@
 
 .ms_br{
     border-radius: 50px;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 767px) {
+    .ms_testoabout{
+        column-count: 1;
+    }
 }
