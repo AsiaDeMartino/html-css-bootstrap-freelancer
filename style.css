@@ -93,6 +93,25 @@
     max-width: 980px;
 }
 
+.ms_form{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 80%;
+    border-bottom: 1px solid lightgrey;
+    color: black;
+    padding-bottom: 15px;
+}
+
+.ms_send{
+    border-top: 1px solid lightgray;
+    width: 80%;
+}
+
+::placeholder{
+    color: black;
+}
+
 /* FOOTER */
 
 .ms_bg_lightblue{
