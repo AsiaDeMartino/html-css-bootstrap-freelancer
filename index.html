@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark ms_bg_grey text-uppercase ">
+        <nav class="navbar navbar-expand-md navbar-dark ms_heightS ms_bg_grey text-uppercase ">
             <div class="container">
               <a class="navbar-brand" href="#">Start Bootstrap</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,13 +20,13 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link text-white" aria-current="page" href="#">Portfolio</a>
+                    <a class="nav-link text-white" href="#">Portfolio</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link text-white" href="#">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                    <a class="nav-link text-white" href="#" tabindex="-1">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -34,14 +34,20 @@
           </nav>
     </header>
     <main>
-        <div class="container-fluid">
-            <div class="row justify-content-center ms_heightM text-white ms_bg_acqua">
-                <div class="col-4 d-flex flex-column justify-content-center align-items-center">
-                    <img src="" alt="">
-                    <h3 class="ms_uppercase">Start Bootstrap</h3>
-                    <p class="ms_uppercase ms_fontsize_p">Graphic Artist - Web Designer - Illustrator</p>
+        <section class="ms_bg_acqua d-flex align-items-center py-5 ms_heightM text-uppercase text-white">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 d-flex flex-column align-items-center">
+                        <img class="ms_avatar" src="img/avatar.svg" alt="">
+                        <h1 class="ms_h1">Start Bootstrap</h1>
+                        <div class="stellina fs-3 ms_stellinawhite d-flex align-items-center gap-3 my-3">
+                            <i class="fas fa-star fa-xs"></i>
+                        </div>
+                        <p class="ms_fontsize_p">Graphic Artist - Web Designer - Illustrator</p>
+                    </div>
                 </div>
-            </div>
+        </section>
+        <section>
             <div class="row ms_heightL justify-content-center">
                 <div class="col-8">
                     <h2 class="ms_uppercase d-flex justify-content-center">Portfolio</h2>
@@ -70,6 +76,7 @@
                 </div>
             </div>
         </div>
+    </section>
         <div class="container-fluid text-white ms_bg_acqua">
             <div class="row justify-content-center">
                 <div class="col-3 d-flex justify-content-center">

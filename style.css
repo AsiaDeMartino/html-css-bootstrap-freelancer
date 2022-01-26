@@ -12,6 +12,10 @@
     min-height: 850px;
 }
 
+.ms_height100{
+    height: 100%;
+}
+
 /* .container {
     border: 1px solid black;
 }
@@ -24,6 +28,24 @@
     border: 1px dashed red;
 }  */
 
+
+
+.stellina::before, .stellina::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+.ms_stellinawhite::after, .ms_stellinawhite::before{
+    background-color: white;
+}
+
+.ms_stellinablack::after, .ms_stellinablack::before{
+    background-color: black;
+}
+
 /* HEADER */
 
 .ms_bg_grey{
@@ -31,18 +53,31 @@
 }
 
 .ms_fontsize_p{
-    font-size: 12px;
+    font-size: 15px;
 }
 
 /* MAIN */
+
+.ms_avatar{
+    max-width: 230px;
+}
+
+.ms_h1{
+    font-size: 45px;
+}
 
 .ms_bg_acqua{
     background-color: rgb(30,177,138);
 }
 
-.portfolio__card{
-    min-height: 250px;
+.ms_portfolio_card{
     border-radius: 5px;
+    overflow: hidden;
+    min-height: 260px;
+}
+
+.ms_img{
+    width: 100%;
 }
 
 /* FOOTER */
